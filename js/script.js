@@ -59,36 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// profile picture hover effect
-// รูปที่ 1
-const profilePic = document.getElementById("profile-pic");
-const originalSrc = "images/profile-hover.png";
-const hoverSrc = "images/profile roblox.png";
-
-profilePic.addEventListener("mouseover", () => {
-  profilePic.src = hoverSrc;
-});
-
-profilePic.addEventListener("mouseout", () => {
-  profilePic.src = originalSrc;
-});
-
-
-// รูปที่ 2
-const profilePic2 = document.getElementById("profile-pic2");
-const originalSrc2 = "images/matee.jpg";
-const hoverSrc2 = "images/profile picture2.png"; // หรือชื่อรูปที่คุณมี
-
-profilePic2.addEventListener("mouseover", () => {
-  profilePic2.src = hoverSrc2;
-});
-
-profilePic2.addEventListener("mouseout", () => {
-  profilePic2.src = originalSrc2;
-});
-
-
-
 // Dark Mode Toggle
 const themeToggle = document.getElementById('theme-icon');
 const currentTheme = localStorage.getItem('theme') || 'light';
@@ -155,7 +125,7 @@ filterButtons.forEach(button => {
 
 // Typing Animation
 const typingText = document.getElementById('typing-text');
-const textArray = ['Full Stack Developer', 'React Specialist', 'Node.js Expert', 'UI/UX Enthusiast'];
+const textArray = ['aespa', 'Kiss of life', 'Blackpink', 'New Jeans', 'Twice', 'Red Velvet', 'ITZY', 'G-IDLE', 'LE SSERAFIM'];
 let textIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
